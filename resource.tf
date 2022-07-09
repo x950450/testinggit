@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "resourceg" {
-  name     = var.resourcegroup
-  location = var.location
+  name     = var.resourcegroupp
+  location = var.locationp
 }
 
 resource "azurerm_storage_account" "azuresa1" {
